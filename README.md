@@ -55,12 +55,16 @@ fleet of them controlled from a browser or a phone.
 | | |
 |---|---|
 | 🖥️ **Every major OS** | macOS, Linux and Windows 11 / Windows Server 2025 (ARM64) on Apple silicon; Linux on Intel Macs. |
-| 🪟 **Prism** | Windows and Linux apps open as their own Mac windows, with the Dock, menu bar and Mission Control. |
-| 📸 **Snapshots & checkpoints** | Full snapshots, scheduled auto snapshots, instant checkpoints and linked clones (macOS 27+). |
+| 🪟 **Prism** | Windows, Linux and macOS apps open as their own Mac windows, with the Dock, menu bar and Mission Control. |
+| ⚡ **Live Snapshots** | Snapshot a running, paused or suspended VM without shutting it down; restoring it resumes with your apps still open. Plus scheduled auto snapshots and a snapshot timeline. |
+| 📍 **Live Checkpoints** | Instant, space-efficient save points that store only what changed, taken while the VM runs, and restored in seconds (macOS 27+). |
+| 🔗 **Linked Clones & Live Linked Clones** | Fork a VM in seconds without copying its disks, from its current state, a checkpoint, or live from a running VM; clones of clones to any depth, and detach a clone into its own VM (macOS 27+). |
+| 🛡️ **High Availability** | Restart a VM automatically after a crash, an unexpected quit or a missed heartbeat (through the Guest Tools or a network port), with restart limits and webhooks. |
+| ✨ **Quanta AI** | Manage your VMs by asking in your own words, with Apple Intelligence on your Mac or Private Cloud Compute; on the Mac, the web, iPhone, iPad and Android (macOS 27+). |
 | 🧩 **Templates & clones** | Reusable templates, quick clones, Quick Create and an image catalog to get started fast. |
 | 🔌 **Integration** | Shared clipboard and folders, audio, the Mac's camera, USB passthrough (macOS 27+), Rosetta for Linux. |
 | 🌐 **Networking** | NAT and bridged networks, a network manager and topology view, serial consoles, Web SSH. |
-| ⌨️ **Automation** | The `vpvm` command-line tool, an HTTP API with scoped access tokens, an MCP server for AI assistants, URL schemes and Shortcuts. |
+| ⌨️ **Automation** | The `vpvm` command-line tool (macOS, Windows, Linux), an HTTP API with scoped access tokens, an MCP server for Claude, Cursor and GitHub Copilot, webhooks, URL schemes and Shortcuts. |
 | 🌍 **Anywhere** | A full web dashboard in any browser, and companion apps for iPhone, iPad and Android. |
 | 📊 **Insight** | Live CPU and memory charts, usage statistics, a log viewer and a disk space analyzer. |
 
