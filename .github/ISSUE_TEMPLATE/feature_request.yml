@@ -1,0 +1,39 @@
+name: Feature request
+description: Suggest something new for VirtualProg, or a better way to do something.
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the idea! Please search the [existing requests](https://github.com/last-Programmer/VirtualProg/issues?q=label%3Aenhancement) first and add a 👍 to one that matches.
+  - type: textarea
+    id: goal
+    attributes:
+      label: What are you trying to do?
+      description: The task or problem, not only the feature you have in mind.
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: How would you like it to work?
+  - type: textarea
+    id: today
+    attributes:
+      label: How do you do it today?
+      description: Any workaround you use now, or another app that does it well.
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Linux VMs
+        - macOS VMs
+        - Windows VMs
+        - Prism
+        - Snapshots and checkpoints
+        - Networking
+        - Command line (vpvm) or HTTP API
+        - Web dashboard
+        - iPhone and iPad app
+        - Other

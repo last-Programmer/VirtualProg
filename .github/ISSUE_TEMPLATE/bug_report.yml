@@ -1,0 +1,59 @@
+name: Bug report
+description: Something in VirtualProg doesn't work as it should.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting! Please search the [existing issues](https://github.com/last-Programmer/VirtualProg/issues) first.
+        Don't post passwords, keys, tokens or anything about purchases here. Report security issues privately to support@makeprog.com.
+  - type: input
+    id: version
+    attributes:
+      label: VirtualProg version
+      description: From VirtualProg → About VirtualProg.
+      placeholder: 2.21 (2.89)
+    validations:
+      required: true
+  - type: dropdown
+    id: edition
+    attributes:
+      label: Where did you get VirtualProg?
+      options:
+        - Mac App Store
+        - Trial (DMG from makeprog.com)
+    validations:
+      required: true
+  - type: input
+    id: mac
+    attributes:
+      label: macOS version and Mac model
+      placeholder: macOS 26.2, MacBook Air M4
+    validations:
+      required: true
+  - type: input
+    id: guest
+    attributes:
+      label: Guest OS
+      description: The VM's OS and version, and how it was made (Quick Create, ISO, restore image, template, import).
+      placeholder: Ubuntu 24.04 from Quick Create
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What you did, what you expected, and what happened instead. The exact error message helps.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. …
+        2. …
+        3. …
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs and screenshots
+      description: Help → Logs, select the VM, Export. Check them for private details before attaching.

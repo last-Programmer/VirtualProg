@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: VirtualProg Help
+    url: https://makeprog.com/Products/VirtualProg/help/index.html
+    about: Guides, FAQ and troubleshooting.
+  - name: Purchases, refunds and security reports
+    url: mailto:support@makeprog.com
+    about: Email support privately. Put "Security" in the subject for vulnerabilities.
