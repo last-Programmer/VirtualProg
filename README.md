@@ -63,7 +63,7 @@ fleet of them controlled from a browser or a phone.
 | ✨ **Quanta AI** | Manage your VMs by asking in your own words, with Apple Intelligence on your Mac or Private Cloud Compute; on the Mac, the web, iPhone, iPad and Android (macOS 27+). |
 | 🧩 **Templates & clones** | Reusable templates, quick clones, Quick Create and an image catalog to get started fast. |
 | 🔌 **Integration** | Shared clipboard and folders, audio, the Mac's camera, USB passthrough (macOS 27+), Rosetta for Linux. |
-| 🌐 **Networking** | NAT and bridged networks, a network manager and topology view, serial consoles, Web SSH. |
+| 🌐 **Networking** | NAT and bridged networks, custom Shared and Host-Only networks with static IPs, port forwarding, IPv6 and custom MTU, VLAN (802.1Q), a network manager and live topology view, serial consoles and Web SSH. |
 | ⌨️ **Automation** | The `vpvm` command-line tool (macOS, Windows, Linux), an HTTP API with scoped access tokens, an MCP server for Claude, Cursor and GitHub Copilot, webhooks, URL schemes and Shortcuts. |
 | 🌍 **Anywhere** | A full web dashboard in any browser, and companion apps for iPhone, iPad and Android. |
 | 📊 **Insight** | Live CPU and memory charts, usage statistics, a log viewer and a disk space analyzer. |
