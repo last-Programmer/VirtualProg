@@ -83,6 +83,7 @@ each version, see the [changelog](https://makeprog.com/Products/VirtualProg/help
 
 ### Windows virtual machines
 - **Windows 11**, **Windows Server 2025** and other Windows ARM64 installers, on Apple silicon.
+- **Windows 11 download** from the built-in [Image Catalog](#image-catalog), Microsoft's official ARM64 ISO.
 - **Unattended Install**: Windows 11 or Server 2025 (Standard, Desktop Experience) installs by itself
   with a local account, VirtIO disk and network drivers loaded during Setup, then the Guest Tools.
   The ISO's edition is recognized automatically.
@@ -429,7 +430,8 @@ attaches, with **Auto Update Guest Tools** (also at the macOS login window) and 
 
 ## Image Catalog
 
-- Built-in catalog of **macOS restore images** and **Linux ISOs**, with download status and progress.
+- Built-in catalog of **macOS restore images**, **Linux ISOs** and **Windows 11** (Microsoft's official
+  ARM64 ISO), with download status and progress.
 - **Custom entries** with your own download URLs.
 - **Untracked files** view to find and delete images no VM, snapshot or template uses.
 - Show in Finder, delete, cancel downloads; from the Mac, web, mobile apps and CLI.
