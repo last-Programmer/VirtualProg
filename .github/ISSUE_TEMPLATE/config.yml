@@ -1,8 +1,11 @@
-blank_issues_enabled: true
+blank_issues_enabled: false
 contact_links:
-  - name: VirtualProg Help
+  - name: 📖 VirtualProg Help
     url: https://makeprog.com/Products/VirtualProg/help/index.html
-    about: Guides, FAQ and troubleshooting.
-  - name: Purchases, refunds and security reports
+    about: Guides, FAQ and troubleshooting. Many answers are already here.
+  - name: 🔒 Report a security vulnerability
+    url: https://github.com/last-Programmer/VirtualProg/blob/main/SECURITY.md
+    about: Please report vulnerabilities privately, not in a public issue.
+  - name: ✉️ Purchases, refunds and private logs
     url: mailto:support@makeprog.com
-    about: Email support privately. Put "Security" in the subject for vulnerabilities.
+    about: Email support for anything that shouldn't be public.

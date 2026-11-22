@@ -37,6 +37,36 @@ body:
       label: Guest OS
       description: The VM's OS and version, and how it was made (Quick Create, ISO, restore image, template, import).
       placeholder: Ubuntu 24.04 from Quick Create
+  - type: input
+    id: guesttools
+    attributes:
+      label: Guest Tools version
+      description: If the VM has VirtualProg Guest Tools and the issue involves the clipboard, shared folders, Prism or the display.
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Creating or importing a VM
+        - Starting, stopping or running a VM
+        - Display, keyboard or mouse
+        - Prism
+        - Guest Tools (clipboard, shared folders, camera)
+        - Snapshots, checkpoints, templates or clones
+        - Networking
+        - Disks, ISOs or USB devices
+        - Command line (vpvm), HTTP API or MCP server
+        - Web dashboard
+        - iPhone, iPad or Android app
+        - Other
+  - type: dropdown
+    id: frequency
+    attributes:
+      label: How often does it happen?
+      options:
+        - Every time
+        - Sometimes
+        - Once so far
   - type: textarea
     id: what
     attributes:

@@ -1,0 +1,26 @@
+name: Question
+description: Ask how to do something in VirtualProg.
+labels: ["question"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Many answers are already in the [Help](https://makeprog.com/Products/VirtualProg/help/index.html) and the [FAQ](https://makeprog.com/Products/VirtualProg/help/faq.html); please have a look there first.
+  - type: textarea
+    id: question
+    attributes:
+      label: Your question
+      description: What you're trying to do, and what you've tried so far.
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: VirtualProg version
+      description: From VirtualProg → About VirtualProg.
+      placeholder: 2.21 (2.89)
+  - type: input
+    id: guest
+    attributes:
+      label: Guest OS
+      placeholder: Ubuntu 24.04, macOS 26, Windows 11…

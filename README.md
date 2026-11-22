@@ -1,68 +1,184 @@
-# VirtualProg: issues and feature requests
+<div align="center">
 
-VirtualProg is made by [MakeProg](https://makeprog.com).
+<img src="https://makeprog.com/images/Products/VirtualProg/images/VirtualProg.png" alt="VirtualProg" width="128" height="128">
 
-This is the public place to report bugs, ask questions and suggest features for
-**[VirtualProg](https://makeprog.com/Products/VirtualProg/)**, a native virtual machine app
-for Apple silicon Macs. It runs Linux, macOS and Windows virtual machines, with Prism (guest apps
-as Mac windows), snapshots and checkpoints, a command-line tool (`vpvm`), a web dashboard and
-remote control from iPhone and iPad.
+# VirtualProg
 
-VirtualProg's source code isn't public; this repository holds issues only.
+**Issues & Feature Requests**
 
-- **Download on the Mac App Store:** https://apps.apple.com/us/app/virtualprog-virtual-machine/id6744131218
-- **Free trial (DMG):** https://makeprog.com/Products/VirtualProg/VirtualProg.dmg
-- **Website:** https://makeprog.com/Products/VirtualProg/
-- **Help:** https://makeprog.com/Products/VirtualProg/help/index.html
-- **Changelog:** https://makeprog.com/Products/VirtualProg/help/changelog.html
-- **FAQ:** https://makeprog.com/Products/VirtualProg/help/faq.html
-- **Troubleshooting:** https://makeprog.com/Products/VirtualProg/help/troubleshooting.html
+Run macOS, Linux and Windows virtual machines on your Mac, natively.
+
+[![Download on the Mac App Store](https://img.shields.io/badge/Mac_App_Store-Download-0D96F6?style=for-the-badge&logo=apple&logoColor=white)](https://apps.apple.com/us/app/virtualprog-virtual-machine/id6744131218)
+[![Free Trial](https://img.shields.io/badge/Free_Trial-DMG-34C759?style=for-the-badge&logo=apple&logoColor=white)](https://makeprog.com/Products/VirtualProg/VirtualProg.dmg)
+[![Help](https://img.shields.io/badge/Help-Docs-8E44AD?style=for-the-badge&logo=readthedocs&logoColor=white)](https://makeprog.com/Products/VirtualProg/help/index.html)
+
+[![macOS 14.6+](https://img.shields.io/badge/macOS-14.6%2B-black?logo=apple)](https://makeprog.com/Products/VirtualProg/help/getting-started.html)
+[![Apple silicon & Intel](https://img.shields.io/badge/Apple_silicon_%26_Intel-supported-555555)](https://makeprog.com/Products/VirtualProg/help/faq.html)
+[![Open issues](https://img.shields.io/github/issues/last-Programmer/VirtualProg?label=open%20issues)](https://github.com/last-Programmer/VirtualProg/issues)
+[![Feature requests](https://img.shields.io/github/issues/last-Programmer/VirtualProg/enhancement?label=feature%20requests&color=a2eeef)](https://github.com/last-Programmer/VirtualProg/issues?q=is%3Aopen+label%3Aenhancement)
+
+[**Report a Bug**](https://github.com/last-Programmer/VirtualProg/issues/new?template=bug_report.yml) ·
+[**Request a Feature**](https://github.com/last-Programmer/VirtualProg/issues/new?template=feature_request.yml) ·
+[**Ask a Question**](https://github.com/last-Programmer/VirtualProg/issues/new?template=question.yml) ·
+[**Changelog**](https://makeprog.com/Products/VirtualProg/help/changelog.html)
+
+</div>
+
+---
+
+This is the official public tracker for **[VirtualProg](https://makeprog.com/Products/VirtualProg/)**,
+made by **[MakeProg](https://makeprog.com)**. Report bugs, suggest features and ask questions here;
+every issue is read by the people who build VirtualProg.
+
+> [!NOTE]
+> VirtualProg's source code isn't public. This repository holds **issues and feature requests only**.
+
+## Contents
+
+- [About VirtualProg](#about-virtualprog)
+- [Get VirtualProg](#get-virtualprog)
+- [Before you open an issue](#before-you-open-an-issue)
+- [Reporting a bug](#reporting-a-bug)
+- [Requesting a feature](#requesting-a-feature)
+- [Please don't post here](#please-dont-post-here)
+- [How issues are handled](#how-issues-are-handled)
+- [Labels](#labels)
+- [Be kind](#be-kind)
+
+## About VirtualProg
+
+VirtualProg is a native virtual machine manager for macOS, built on Apple's Virtualization
+framework. It's designed to feel like a Mac app, and to scale from one VM on a MacBook to a
+fleet of them controlled from a browser or a phone.
+
+| | |
+|---|---|
+| 🖥️ **Every major OS** | macOS, Linux and Windows 11 / Windows Server 2025 (ARM64) on Apple silicon; Linux on Intel Macs. |
+| 🪟 **Prism** | Windows and Linux apps open as their own Mac windows, with the Dock, menu bar and Mission Control. |
+| 📸 **Snapshots & checkpoints** | Full snapshots, scheduled auto snapshots, instant checkpoints and linked clones (macOS 27+). |
+| 🧩 **Templates & clones** | Reusable templates, quick clones, Quick Create and an image catalog to get started fast. |
+| 🔌 **Integration** | Shared clipboard and folders, audio, the Mac's camera, USB passthrough (macOS 27+), Rosetta for Linux. |
+| 🌐 **Networking** | NAT and bridged networks, a network manager and topology view, serial consoles, Web SSH. |
+| ⌨️ **Automation** | The `vpvm` command-line tool, an HTTP API with scoped access tokens, an MCP server for AI assistants, URL schemes and Shortcuts. |
+| 🌍 **Anywhere** | A full web dashboard in any browser, and companion apps for iPhone, iPad and Android. |
+| 📊 **Insight** | Live CPU and memory charts, usage statistics, a log viewer and a disk space analyzer. |
+
+See the [full feature list](https://makeprog.com/Products/VirtualProg/help/features.html) and the
+[Help](https://makeprog.com/Products/VirtualProg/help/index.html) for details.
+
+## Get VirtualProg
+
+| | Where | Notes |
+|---|---|---|
+| **Mac** | [Mac App Store](https://apps.apple.com/us/app/virtualprog-virtual-machine/id6744131218) | Updates through the App Store. |
+| **Mac (trial)** | [VirtualProg.dmg](https://makeprog.com/Products/VirtualProg/VirtualProg.dmg) | Free trial, notarized by Apple. |
+| **iPhone & iPad** | [App Store](https://apps.apple.com/us/app/virtualprog-remote-control/id6816698503) | Remote control for your Mac's VMs. |
+| **Android** | [Google Play](https://play.google.com/store/apps/details?id=com.makeprog.virtualprog) | Remote control for your Mac's VMs. |
+
+**Requirements:** macOS 14.6 Sonoma or later. macOS and Windows VMs need an Apple silicon Mac
+(M1 or later); some features need a newer macOS, as the Help notes.
 
 ## Before you open an issue
 
-1. **Update VirtualProg** (from the App Store, or the latest trial DMG). Your issue may already be fixed.
-2. **Search the [existing issues](https://github.com/last-Programmer/VirtualProg/issues)**, open and closed.
-   Add a 👍 or a comment to one that matches, rather than opening a duplicate.
-3. **Check [Troubleshooting](https://makeprog.com/Products/VirtualProg/help/troubleshooting.html)**
-   and the [FAQ](https://makeprog.com/Products/VirtualProg/help/faq.html).
-
-## Feature requests
-
-Welcome! Tell us what you're trying to do, not only the feature you have in mind: "I want to run my
-Linux test VMs every night and keep the last three runs" helps more than "add a schedule button".
-Upvote existing requests with 👍; we use them to decide what comes next.
+1. **Update VirtualProg.** Your issue may already be fixed; the
+   [changelog](https://makeprog.com/Products/VirtualProg/help/changelog.html) lists what changed.
+2. **Search the [existing issues](https://github.com/last-Programmer/VirtualProg/issues?q=is%3Aissue)**,
+   open and closed. If one matches, add a 👍 or a comment with your details instead of opening a
+   duplicate: it helps us see how many people it affects.
+3. **Check the [Troubleshooting](https://makeprog.com/Products/VirtualProg/help/troubleshooting.html)
+   guide and the [FAQ](https://makeprog.com/Products/VirtualProg/help/faq.html).** Many common
+   problems (permissions, networking, Guest Tools) have a quick fix there.
 
 ## Reporting a bug
 
-Please include:
+[**Open a bug report →**](https://github.com/last-Programmer/VirtualProg/issues/new?template=bug_report.yml)
 
-- **VirtualProg version and build**, from **VirtualProg → About VirtualProg**, e.g. 2.21 (2.89),
-  and whether it's the App Store version or the trial.
-- **macOS version** and your **Mac model**, e.g. macOS 26.2, MacBook Air M4.
-- **The guest:** OS and version (e.g. Ubuntu 24.04, macOS 26, Windows 11), and how it was made
-  (Quick Create, ISO, restore image, template, import from Parallels, UTM or VMware).
-- **What you did, what you expected, and what happened.** Steps to reproduce help most.
-- **The exact error message**, or a screenshot.
-- **Logs, if you can:** choose **Help → Logs**, select the VM and use **Export**. Attach the file
-  here only after checking it (see below), or email it to `support@makeprog.com` and mention
-  this issue's number.
+The form asks for everything below. A complete report is usually a faster fix.
+
+| What | Where to find it |
+|---|---|
+| **VirtualProg version and build** | **VirtualProg → About VirtualProg**, e.g. 2.21 (2.89); and App Store or trial |
+| **macOS version and Mac model** | **Apple menu → About This Mac**, e.g. macOS 26.2, MacBook Air M4 |
+| **The guest** | OS and version (e.g. Ubuntu 24.04, macOS 26, Windows 11) and how it was made: Quick Create, ISO, restore image, template, or an import from Parallels, UTM or VMware |
+| **Guest Tools version** | If the VM has them, and the issue involves clipboard, folders, Prism or display |
+| **What happened** | What you did, what you expected, what happened instead, and the exact error message |
+| **Steps to reproduce** | The shortest sequence that shows the problem, and whether it happens every time |
+| **Logs** | **Help → Logs**, select the VM, then **Export**. Check them before attaching (see below) |
+
+> [!TIP]
+> A screenshot or a short screen recording often says more than a paragraph. VirtualProg can record
+> a VM's screen itself ([Record Video](https://makeprog.com/Products/VirtualProg/help/recordvideo.html)).
+
+If you'd rather not attach logs publicly, email them to **support@makeprog.com** and mention the
+issue number.
+
+## Requesting a feature
+
+[**Request a feature →**](https://github.com/last-Programmer/VirtualProg/issues/new?template=feature_request.yml)
+
+Feature requests are welcome, and they shape what comes next. The most useful ones describe
+**the problem you're solving**, not only the button you'd like:
+
+> ✅ "I test my app on three Linux distributions every night and want each run to start from the
+> same clean state, then keep the last three results."
+>
+> ❌ "Add a schedule button."
+
+The first tells us what to build and lets us find the best way to do it. Upvote existing
+requests with 👍: the [most requested features](https://github.com/last-Programmer/VirtualProg/issues?q=is%3Aopen+label%3Aenhancement+sort%3Areactions-%2B1-desc)
+are the first we look at.
 
 ## Please don't post here
 
-- **Purchases, refunds or anything about your App Store account.** Email
-  support@makeprog.com instead.
-- **Passwords, SSH keys, access tokens or other secrets.** Check screenshots and logs before
-  attaching them: logs can contain file paths, VM names and network addresses.
-- **Security vulnerabilities.** Please report them privately to support@makeprog.com, with
-  "Security" in the subject, so we can fix them before they're public.
+> [!WARNING]
+> This repository is public. Anything you post can be read by anyone.
 
-## What to expect
+- **Purchases, refunds or your App Store account.** Email **support@makeprog.com**.
+- **Passwords, SSH keys, access tokens, TOTP secrets or license details.** Check screenshots and
+  logs before attaching them: logs can contain file paths, VM names and network addresses.
+- **Security vulnerabilities.** Please report them privately; see the [security policy](SECURITY.md).
 
-VirtualProg is made by a small independent team at MakeProg. We read every issue, but can't
-promise a reply time. Bugs that lose data or block many people come first. Fixes ship as
-VirtualProg updates, and the changelog says what changed.
+## How issues are handled
+
+1. **Triage.** New issues are read and labelled, usually within a few days. If something is
+   missing we'll ask, and label the issue `needs info`.
+2. **Priority.** Bugs that lose data, stop VMs from starting, or affect many people come first.
+   Feature requests are weighed by how many people need them (👍) and how well they fit VirtualProg.
+3. **Fix.** Fixes and new features ship in VirtualProg updates. The issue is closed with a note
+   of the version that includes them, and the
+   [changelog](https://makeprog.com/Products/VirtualProg/help/changelog.html) says what changed.
+
+VirtualProg is made by a small independent team, so we can't promise a reply time, but every
+issue is read.
+
+## Labels
+
+| Label | Meaning |
+|---|---|
+| `bug` | Something isn't working as it should |
+| `enhancement` | A new feature or an improvement |
+| `question` | A question about using VirtualProg |
+| `needs info` | Waiting for more details from the reporter |
+| `macOS guest` · `Linux guest` · `Windows guest` | Specific to one guest OS |
+| `Prism` | Guest apps as Mac windows |
+| `documentation` | The Help or the website |
+| `duplicate` · `invalid` · `wontfix` | Closed without a change, with a note saying why |
 
 ## Be kind
 
-Be respectful and constructive. Issues are for VirtualProg; general questions about macOS,
-Apple's Virtualization framework or a guest OS are better asked elsewhere.
+Be respectful and constructive; everyone here is trying to make VirtualProg better. Issues are for
+VirtualProg itself. General questions about macOS, Apple's Virtualization framework or a guest OS
+are better asked in those communities.
+
+---
+
+<div align="center">
+
+**[VirtualProg](https://makeprog.com/Products/VirtualProg/)** · Made by **[MakeProg](https://makeprog.com)** ·
+[Help](https://makeprog.com/Products/VirtualProg/help/index.html) ·
+[support@makeprog.com](mailto:support@makeprog.com)
+
+<sub>Apple, Mac, macOS, iPhone and iPad are trademarks of Apple Inc. Windows is a trademark of Microsoft
+Corporation. Android and Google Play are trademarks of Google LLC.</sub>
+
+</div>
