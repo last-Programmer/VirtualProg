@@ -20,6 +20,7 @@ Run macOS, Linux and Windows virtual machines on your Mac, natively.
 [**Report a Bug**](https://github.com/last-Programmer/VirtualProg/issues/new?template=bug_report.yml) ·
 [**Request a Feature**](https://github.com/last-Programmer/VirtualProg/issues/new?template=feature_request.yml) ·
 [**Ask a Question**](https://github.com/last-Programmer/VirtualProg/issues/new?template=question.yml) ·
+[**All Features**](features.md) ·
 [**Changelog**](https://makeprog.com/Products/VirtualProg/help/changelog.html)
 
 </div>
@@ -63,7 +64,7 @@ fleet of them controlled from a browser or a phone.
 | 🌍 **Anywhere** | A full web dashboard in any browser, and companion apps for iPhone, iPad and Android. |
 | 📊 **Insight** | Live CPU and memory charts, usage statistics, a log viewer and a disk space analyzer. |
 
-See the [full feature list](https://makeprog.com/Products/VirtualProg) and the
+See the [full feature list](features.md) and the
 [Help](https://makeprog.com/Products/VirtualProg/help/index.html) for details.
 
 ## Get VirtualProg
