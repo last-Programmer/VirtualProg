@@ -63,7 +63,7 @@ fleet of them controlled from a browser or a phone.
 | 🌍 **Anywhere** | A full web dashboard in any browser, and companion apps for iPhone, iPad and Android. |
 | 📊 **Insight** | Live CPU and memory charts, usage statistics, a log viewer and a disk space analyzer. |
 
-See the [full feature list](https://makeprog.com/Products/VirtualProg/help/features.html) and the
+See the [full feature list](https://makeprog.com/Products/VirtualProg) and the
 [Help](https://makeprog.com/Products/VirtualProg/help/index.html) for details.
 
 ## Get VirtualProg
